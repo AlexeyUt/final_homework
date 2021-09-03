@@ -1,0 +1,48 @@
+.greeting {
+  margin-top: 356px;
+  margin-left: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.greeting__desc {
+  background: url('../../img/shades.png') center center/ cover no-repeat;
+  width: 590px;
+  height: 250px;
+  padding: 65px 156px 44px 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.greeting__slogan {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.greeting__button {
+  margin-top: 8px;
+  width: 168px;
+  height: 55px;
+  border: 1px solid #F5170E;
+  box-sizing: border-box;
+  border-radius: 35px;
+  padding: 18px 40px;
+  background-color: #F5170E;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+
+.animate__animated .animate__bounceIn {
+  animation: bounceIn 10s ease-in-out infinite running;
+}

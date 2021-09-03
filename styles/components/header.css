@@ -1,0 +1,12 @@
+.header__small{
+  background: url('../../img/reviews-top.jpg') center center/ cover no-repeat;
+  min-height: 412px;
+}
+
+.header__container {
+  padding-top: 27px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
