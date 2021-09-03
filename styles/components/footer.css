@@ -1,7 +1,9 @@
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #001821;
-  height: 92px;
-  margin-bottom: 57px;
+  height: 165px;
   left: 0;
   right: 0;
 }
