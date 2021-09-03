@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #001821;
+  height: 165px;
+  left: 0;
+  right: 0;
+}
+
+.footer__big {
+  background: #001821;
+  min-height: 133px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
